@@ -1,4 +1,4 @@
-[![npm](https://img.shields.io/npm/v/eslint-config-tough.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-tough)
+[![npm](https://img.shields.io/npm/v/eslint-config-tough/master.svg?style=flat-square)](https://www.npmjs.com/package/eslint-config-tough)
 
 [ESLint Shareable Configs](http://eslint.org/docs/developer-guide/shareable-configs).
 
