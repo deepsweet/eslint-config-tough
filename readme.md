@@ -4,8 +4,6 @@
 
 ![tough life](pic.jpg)
 
-:exclamation: Any change can be a breaking change until `v1.0.0`.
-
 ## Install
 
 :information_desk_person: This config relies dangerously on npm@3 _flatter_ tree for its dependencies (because of [eslint/issues/3458](https://github.com/eslint/eslint/issues/3458)), so installation _may be_ as simple as:
