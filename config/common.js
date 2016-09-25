@@ -122,7 +122,6 @@ module.exports = {
         'consistent-this': [ 2, 'that' ],
         'eol-last': 2,
         'func-call-spacing': [ 2, 'never' ],
-        'func-names': [ 1, 'always' ],
         'func-style': [ 1, 'expression' ],
         'id-length': [ 2, { min: 2 } ],
         indent: [ 2, 4, { SwitchCase: 1 } ],
