@@ -4,7 +4,7 @@
 
 ![tough life](pic.jpg)
 
-:exclamation: Until `v1.0.0` any change can be a breaking change.
+:exclamation: Any change can be a breaking change until `v1.0.0`.
 
 ## Install
 
