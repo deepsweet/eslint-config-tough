@@ -169,7 +169,7 @@ module.exports = {
         'no-underscore-dangle': 2,
         'no-unneeded-ternary': 2,
         'no-whitespace-before-property': 2,
-        'object-curly-newline': [ 2, { minProperties: 3 } ],
+        'object-curly-newline': [ 2, { minProperties: 3, multiline: true } ],
         'object-curly-spacing': [ 2, 'always', { arraysInObjects: true, objectsInObjects: true } ],
         'one-var-declaration-per-line': [ 2, 'always' ],
         'one-var': [ 2, 'never' ],
