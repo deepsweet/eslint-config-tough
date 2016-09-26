@@ -55,7 +55,7 @@ module.exports = {
         'import/no-amd': 2,
         'import/imports-first': 2,
         'import/no-duplicates': 2,
-        'import/order': [ 2, { 'newlines-between': 'always' } ],
+        'import/order': 2,
         'import/newline-after-import': 2,
         'import/prefer-default-export': 1,
 
