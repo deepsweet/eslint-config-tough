@@ -41,7 +41,6 @@ module.exports = {
         'array-callback-return': 2,
         'block-scoped-var': 2,
         'class-methods-use-this': 1,
-        'consistent-return': 2,
         curly: 2,
         'default-case': 1,
         'dot-location': [ 2, 'property' ],
