@@ -123,7 +123,10 @@ module.exports = {
         'eol-last': 2,
         'func-call-spacing': [ 2, 'never' ],
         'func-style': [ 1, 'expression' ],
-        'id-length': [ 2, { min: 2 } ],
+        'id-length': [ 2, {
+            min: 2,
+            exceptions: [ 'x', 'y', 'z', 'e', 'i' ]
+        } ],
         indent: [ 2, 4, { SwitchCase: 1 } ],
         'key-spacing': [ 2, {
             beforeColon: false,
