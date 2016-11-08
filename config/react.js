@@ -64,7 +64,10 @@ module.exports = {
         // https://github.com/yannickcr/eslint-plugin-react#jsx-specific-rules
         'react/jsx-boolean-value': [ 2, 'always' ],
         'react/jsx-closing-bracket-location': 2,
-        'react/jsx-curly-spacing': [ 2, 'always', { spacing: { objectLiterals: 'never' } } ],
+        'react/jsx-curly-spacing': [ 2, 'always', {
+            allowMultiline: true,
+            spacing: { objectLiterals: 'never' }
+        } ],
         'react/jsx-equals-spacing': [ 2, 'never' ],
         'react/jsx-filename-extension': 2,
         'react/jsx-first-prop-new-line': [ 2, 'multiline' ],
