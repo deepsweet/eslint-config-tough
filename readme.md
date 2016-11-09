@@ -47,4 +47,5 @@ npm i -D eslint-config-tough
 * browser
 * esnext
 * react
+* flowtype
 * test
