@@ -32,6 +32,7 @@ module.exports = {
         'prefer-rest-params': 2,
         'prefer-spread': 2,
         'prefer-template': 2,
+        'require-await': 2,
         'require-yield': 2,
         'rest-spread-spacing': [ 2, 'never' ],
         'template-curly-spacing': [ 2, 'never' ],

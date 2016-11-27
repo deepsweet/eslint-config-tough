@@ -147,7 +147,11 @@ module.exports = {
         // 'lines-around-comment'
         'lines-around-directive': [ 2, 'always' ],
         'max-depth': [ 1, { max: 4 } ],
-        'max-len': [ 1, 100, 4, { ignoreComments: true,  ignoreUrls: true } ],
+        'max-len': [ 1, 100, 4, {
+            ignoreComments: true,
+            ignoreRegExpLiterals: true,
+            ignoreUrls: true
+        } ],
         // 'max-nested-callbacks'
         'max-params': [ 1, { max: 3 } ],
         'max-statements-per-line': [ 2, { max: 1 } ],
