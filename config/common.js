@@ -203,6 +203,7 @@ module.exports = {
 
         // https://github.com/xjamundx/eslint-plugin-promise
         'promise/always-return': 2,
+        'promise/no-return-wrap': 2,
         'promise/param-names': 2
     }
 };
