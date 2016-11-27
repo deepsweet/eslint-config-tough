@@ -17,7 +17,7 @@
   },
   "dependencies": {
     "babel-eslint": "~6.1.2",
-    "eslint-plugin-babel": "~3.3.0",
+    "eslint-plugin-babel": "~4.0.0",
     "eslint-plugin-fp": "~2.2.0",
     "eslint-plugin-immutable": "~1.0.0",
     "eslint-plugin-import": "~1.16.0",
