@@ -81,6 +81,11 @@ module.exports = {
         'react/jsx-pascal-case': 2,
         'react/jsx-sort-props': [ 2, { callbacksLast: true } ],
         'react/jsx-space-before-closing': [ 2, 'always' ],
+        'react/jsx-tag-spacing': [ 2, {
+            closingSlash: 'never',
+            beforeSelfClosing: 'never',
+            afterOpening: 'never'
+        } ],
         'react/jsx-uses-react': 2,
         'react/jsx-uses-vars': 2,
         'react/jsx-wrap-multilines': 2,
