@@ -51,8 +51,9 @@ module.exports = {
         'import/no-named-as-default-member': 2,
         'import/no-extraneous-dependencies': [ 2, { peerDependencies: false } ],
         'import/no-mutable-exports': 2,
+        'import/no-named-default': 2,
         'import/no-amd': 2,
-        'import/imports-first': 2,
+        'import/first': 2,
         'import/no-duplicates': 2,
         'import/order': 2,
         'import/newline-after-import': 2,
@@ -60,5 +61,8 @@ module.exports = {
 
         // https://github.com/jfmengels/eslint-plugin-fp
         'fp/no-arguments': 2
+    },
+    settings: {
+        'import/extensions': [ '.js', '.jsx' ]
     }
 };
