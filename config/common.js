@@ -127,7 +127,7 @@ module.exports = {
             min: 2,
             exceptions: [ 'x', 'y', 'z', 'e', 'i' ]
         } ],
-        indent: [ 2, 4, { SwitchCase: 1 } ],
+        indent: [ 2, 2, { SwitchCase: 1 } ],
         'key-spacing': [ 2, {
             beforeColon: false,
             afterColon: true,
