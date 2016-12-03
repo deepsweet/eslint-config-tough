@@ -127,8 +127,19 @@ module.exports = {
             min: 2,
             exceptions: [ 'x', 'y', 'z', 'e', 'i' ]
         } ],
-        indent: [ 2, 2, { SwitchCase: 1 } ],
-        'key-spacing': [ 2, {
+        indent: [ 2, 2, {
+          SwitchCase: 1,
+          FunctionDeclaration: {
+            parameters: 1
+          },
+          FunctionExpression: {
+            parameters: 1
+          },
+          CallExpression: {
+            arguments: 1
+          }
+        } ],
+		'key-spacing': [ 2, {
             beforeColon: false,
             afterColon: true,
             mode: 'strict'
