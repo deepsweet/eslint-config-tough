@@ -8,6 +8,7 @@ module.exports = {
     rules: {
         // https://github.com/yannickcr/eslint-plugin-react#list-of-supported-rules
         'react/forbid-prop-types': [ 1, { forbid: [ 'any' ] } ],
+        'react/no-array-index-key': 2,
         'react/no-children-prop': 2,
         'react/no-danger': 1,
         'react/no-danger-with-children': 2,
