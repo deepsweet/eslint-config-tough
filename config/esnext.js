@@ -34,6 +34,7 @@ module.exports = {
         'prefer-template': 2,
         'require-await': 2,
         'require-yield': 2,
+        'no-await-in-loop': 2,
         'rest-spread-spacing': [ 2, 'never' ],
         'template-curly-spacing': [ 2, 'never' ],
         'yield-star-spacing': [ 2, 'after' ],
