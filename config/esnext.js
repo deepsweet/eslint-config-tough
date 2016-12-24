@@ -7,6 +7,9 @@ module.exports = {
         ecmaVersion: 7,
         sourceType: 'module'
     },
+    env: {
+        es6: true
+    },
     rules: {
         // http://eslint.org/docs/rules/#ecmascript-6
         strict: [ 2, 'never' ],
