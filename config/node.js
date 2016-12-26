@@ -4,7 +4,6 @@ module.exports = {
     },
     plugins: [ 'node' ],
     rules: {
-        'global-require': 1,
         'handle-callback-err': 2,
         'no-mixed-requires': [ 2, { grouping: true } ],
         'no-new-require': 2,
