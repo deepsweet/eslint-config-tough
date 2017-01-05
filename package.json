@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-tough",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "ESLint config for tough life",
   "keywords": [
     "eslint",
