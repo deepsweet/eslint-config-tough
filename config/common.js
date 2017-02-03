@@ -87,7 +87,6 @@ module.exports = {
         'no-useless-escape': 2,
         'no-void': 2,
         'no-with': 2,
-        'prefer-promise-reject-errors': 2,
         radix: [ 2, 'as-needed' ],
         'vars-on-top': 2,
         'wrap-iife': [ 2, 'inside' ],
