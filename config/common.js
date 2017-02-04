@@ -102,7 +102,7 @@ module.exports = {
         'no-undef-init': 2,
         'no-undefined': 2,
         'no-undef': 2,
-        'no-unused-vars': 2,
+        'no-unused-vars': [ 2, { ignoreRestSiblings: true } ],
         'no-use-before-define': 2,
 
         // Stylistic Issues
@@ -204,6 +204,7 @@ module.exports = {
         'space-infix-ops': 2,
         'space-unary-ops': [ 2, { words: true, nonwords: false } ],
         'spaced-comment': [ 2, 'always' ],
+        'template-tag-spacing': [ 2, 'never' ],
         'unicode-bom': [ 2, 'never' ],
 
         // https://github.com/jfmengels/eslint-plugin-fp
